@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page10"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".page8">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_weight="3.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-280dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="Her grandmother looked strange. “Oh, Grandma, what big ears you have!” exclaimed Red Riding Hood. “All the better to hear you with!” the wolf replied in a fake voice. “Oh, Grandma, what big eyes you have!” she continued. “All the better to see you with!” the wolf said. “Oh, Grandma, what big hands you have!” “All the better to grab you with!”, the wolf said."
+            android:textColor="#000209"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="GoPage9"
+            android:text="Back"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#11A0ED"
+            android:onClick="GoPage11"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

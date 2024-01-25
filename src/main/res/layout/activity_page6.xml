@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page6"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".page6">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_weight="3.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-310dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="While Little Red Riding Hood went deeper into the woods to pick flowers, the wolf went straight to her grandmother’s house. He knocked on the door and heard a voice inside “Who is it?” ‘It’s me, Little Red Riding Hood. I’ve brought you bread, butter, cake and berries”, the wolf said, disguising his voice. “How lovely! Give the door a big push and come in. I don’t have the strength to come and open it."
+            android:textColor="#000310"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="GoPage5"
+            android:text="Back"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#11A0ED"
+            android:onClick="GoPage7"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
